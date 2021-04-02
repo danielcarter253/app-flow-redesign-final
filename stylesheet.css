@@ -1,0 +1,188 @@
+       html{
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+            
+            *, *:before, *:after {
+                -webkit-box-sizing: inherit;
+                -moz-box-sizing: inherit;
+                box-sizing: border-box;
+            }
+            img {
+                max-width:100%;
+                height:auto;
+             
+              
+            
+            }
+header{
+    background-color: #d8c3a5; 
+    font-family:"Cinzel";
+    
+    
+    
+}
+
+main {
+    
+   
+    
+}
+
+section {
+   
+        
+    
+}
+
+.graph1 {
+    
+ 
+    
+    
+   
+
+}
+
+.graph2 {
+  
+   
+    
+}
+
+.userresearch{
+   
+}
+
+.insomnialogo {
+     
+    
+}
+
+.ideation {
+    
+}
+
+.visual1 { width: 325px;
+       border: solid 2px;   
+       border-color: black;
+        float: left;
+        object-fit: cover;
+                
+    
+
+                
+    
+}
+.visual2 { width: 325px; 
+    border: solid 2px;
+    border-color: black;
+    float: left;
+    object-fit: cover;
+                
+     
+     
+    
+}
+.visual3 {
+     width: 325px; 
+    border: solid 2px;
+    border-color: black;
+    float: left;
+    object-fit: cover;
+                
+      
+    
+}
+
+.mockup1 { width: 500px;
+    
+       
+                
+    
+
+                
+    
+}
+.mockup2 { width: 500px; 
+   
+                
+     
+     
+    
+}
+.mockup3 {
+     width: 500px; 
+     
+   
+}
+                
+
+.rationale { 
+    background-color:;
+    
+    }
+    
+    
+    .highdef1{
+        
+    }
+
+    .highdef2{
+        display: block;
+        margin-left: 20px;
+        margin-right: auto;
+        width:125%;
+        
+    }
+
+
+    .highdef3{
+            display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:125%;
+        
+        
+    }
+
+
+footer {
+    
+    
+}
+h1{
+    text-align: center;
+    font-size: 56px;
+    font-family: "Cinzel";
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    color:aliceblue;
+    background-color:#33266e;
+    font-family: "Cinzel";
+   
+}
+
+h3 {
+    font-size: 30px;
+     font-family: "Cinzel";
+}
+
+p{
+    font-size: 26px;
+     font-family: "Gudea";
+}
+
+li{
+    font-size: 26px;
+    font-family: "Gudea";
+}
+/* LAYOUT STYLES */
+
+
+/* GENERAL STYLES */

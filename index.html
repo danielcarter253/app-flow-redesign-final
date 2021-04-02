@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet" >
+        
+        <style>
+            .container {
+                display:grid;
+                grid-template-columns:repeat(8, 1fr);
+                grid-auto-rows:minmax(100px, auto);
+                grid-gap:1em;
+
+               
+               
+                
+                
+            }
+
+            header {
+                grid-column: 1/9;
+                grid-row: 1/3;
+                
+              
+            }
+            
+            main{
+               grid-column: 1/9;
+              
+            }
+             section {
+                grid-column: 1/5;
+                 
+            }
+            
+            .insomnialogo {
+                grid-column: 5/9;
+                
+            }
+            
+            .userresearch {
+                grid-column: 1/9;
+            }
+    
+            
+            .graph1 {
+                grid-column: 1/5;
+                grid-row: 6/6;
+            }
+            
+               .graph2 {
+                grid-column: 5/9;
+                   grid-row: 6/6;
+            }
+         
+            
+            .graphinfo {
+                grid-column: 1/9;
+            }
+            
+                .visual1 {
+                grid-column: 1/3;
+            }
+            
+               .visual2 {
+                grid-column: 3/6;
+            }
+            
+               .visual3 {
+                grid-column: 6/9;
+            }
+            
+                .ideation {
+                grid-column: 1/9;
+            }
+            
+                .mockup1 {
+                grid-column: 1/3;
+            }
+            
+               .mockup2 {
+                grid-column: 3/6;
+            }
+            
+               .mockup3 {
+                grid-column: 6/9;
+            }
+            
+            .rationale {
+                grid-column: 1/9;
+            }
+            
+                .highdef1 {
+                grid-column: 1/3;
+            }
+            
+               .highdef2 {
+                grid-column: 3/6;
+            
+            }
+            
+               .highdef3 {
+                grid-column: 6/9;
+            }
+            
+            footer {
+                grid-column: 1/9;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+            <h1> App Flow Redesign  <br> Case Study: Insomnia Cookies Delivery App </h1>
+                
+            </header>
+            
+            <main>
+            <h2><u>Overview</u></h2>
+                <p> As the global pandemic continues to make itself known in the daily lives of people across the world, it has been apparent that the former ways of achieving simple tasks, like getting groceries or buying food, will no longer be deemed safe. The rise in deliveries was foreseeable, and the efficiency of how these deliveries are made is quite important to the drivers and companies they work under. 
+                    
+In this case study we’ll be looking closely at the Insomnia Cookies driver app, and how we can improve on the foundations that have already been laid. 
+</p>
+                <br>
+                <h3><u>Design Question:</u></h3>  <p>How might we increase the efficiency for delivery drivers using Insomnia’s mobile app while on the road? </p>
+            </main>
+            
+              <section>
+            <h2><u>User Goals:</u></h2>
+                    
+               <ol> <li>Visual list of deliveries</li>
+                <li>Keeping track of delivery speed time</li>
+                <li>Mapping directions from point A to point B</li>
+                <li>Showing overall tip amount </li>
+                <li>Having quick access to delivery settings</li> </ol>
+                  
+                  
+                     </section>
+            
+            <div class="insomnialogo">
+              
+             <img src="insomnialogo2.png" width="285" style="margin-left:200px" alt="insomnia logo">
+            </div> 
+            
+            <div class="userresearch">
+                        <h2><u> User Research</u></h2>
+                  <p> I asked five delivery drivers at Insomnia to complete a survey. This survey had questions to determine the main issues they experience with the app, the features they use the most and the accessibility of it all while driving on the road. Now I determined there were three major concerns with the app. Number one: the app only lets users connect Google Maps directly to their deliveries, and the problem there is that Google Maps isn’t nearly as efficient as others. The app gives no option to switch between using different apps, and as you can see, 80% of the drivers at this Insomnia Cookies use something other than Google Maps.</p> <p>The other major features that drivers were concerned about were the average delivery time and the account settings. It was a tie with 40% of drivers believed both these components of the app needed improvement. My solution is to combine these issues together to provide one answer to the problems. I'll dive more into that once we get to the Ideation Process.</p>
+            </div>
+            
+           
+            
+            
+                <div class="graph1">
+                <h2><u>Question 1</u></h2>
+                    <img src="Screen%20Shot%202021-01-27%20at%205.17.47%20PM.png" alt="graph 1">
+            </div>
+            <br> 
+                <div class="graph2">
+                     <h2><u>Question 2</u></h2>
+                    <img src="Screen%20Shot%202021-01-27%20at%205.18.07%20PM.png" alt="graph 2">
+            </div>
+            
+    
+            
+            <div class="graphinfo">
+            <h2><u>Pain Points</u></h2>
+                 <p>Now as you can see, the app starts with the dashboard menu when drivers open it up. If you look at the top right, you’ll see an image of an avatar. That image might be misleading, and could be replaced with three lines representing the settings option. But, let’s focus on the main issues the data revealed. Once we select the avatar a pop up menu appears on the left. That is where we can locate the average delivery time and the account settings. Once drivers click delivery settings, which is represented in the third image, the lack of helpful options is painstakingly clear.  </p>
+
+<p>If drivers were to hit the average delivery time instead, they would see an inaccurate accounting of their average delivery times. However, the system in store tracks the accurate time without using the app. That makes this feature more of a worry and adds unnecessary clutter. 
+</p>
+            </div>
+            
+                     <div class="visual1" style="margin-left: 50px">
+               
+                         <img src="1stmenu.PNG" alt="visual1">
+            </div>
+            
+                <div class="visual2" style="margin-left: 190px">
+
+                    <img src="2ndmenu.PNG" alt="visual2">
+        
+            </div>
+            
+                 <div class="visual3" style="margin-left: 150px">
+
+                     <img src="accountsettings.PNG" alt="visual3">
+            </div>
+                <div class="ideation">
+            <h2><u>Ideation Process and Wireframes</u></h2>
+                    <p>So, as I thought on how to fix these issues highlighted by the drivers, I focused on fixing them with simplicity. To fix all problems with one centralized idea. That idea revolved around the lack of options in the account settings. So I added helpful content in this section as I built my wireframes.</p> <p> I decided to add a map option to the account settings, which would let drivers switch between maps they prefer instead of only using Google Maps. I also added an option that would turn off unwanted features. Like the inaccurate delivery times. I didn't like the idea of just hiding the feature at first, but the delivery time's issue is structural, and would need to be fixed by code. So, my solution is to get rid of the clutter drivers don't need. As I was thinking and drawing, I leaned on these solutions to fix the lack of account setting options, map availability and the worrysome delivery times. </p>
+            </div>
+            
+            <div class="mockup1" style="margin-left: 50px">
+               
+                         <img src="wireframe1.png" alt="wireframe1">
+            </div>
+            
+                <div class="mockup2" style="margin-left: 165px">
+
+                    <img src="wireframe2.png" alt="wireframe2">
+        
+            </div>
+            
+                 <div class="mockup3">
+
+                     <img src="wireframe3.png" alt="wireframe3">
+            </div>
+            <div class="rationale">
+            <h2><u>Rationale and Visual Mockups</u></h2>
+                  <p> My first decision was to change the avatar image as it could be misleading to drivers. I replaced it with the image of three lines so drivers would know where the main settings were located. The overall design of the app is simple, which I think is important, so I kept it mostly the same. Once drivers click the three lines they will be shown the new section of content at the bottom left. I removed the "My Wallet" and "Delivery Time" options to the account settings to get rid of the clutter. I also added more map options for drivers to sync to. These few decisions simplified the content on the app, made use of the account settings and gave an option to get rid of the content that doesn't properly work.</p>
+            </div>
+                        <div class="highdef1" style="margin-left:50px">
+               
+                         <img src="highdef1copy.png" alt="app redesign1">
+            </div>
+            
+                <div class="highdef2">
+
+                    <img src="highdef2.png" alt="appredesign2">
+        
+            </div>
+            
+                 <div class="highdef3">
+
+                     <img src="highdef3.png" alt="appredesign3">
+            </div>
+            
+            <footer>
+                <h2><u>Conclusion</u></h2>
+                <p> Thank you for reading this case study on the Insomnia Cookies app. With these small edits to the overall design of the app, drivers would be able to focus more on driving and less on the frustrating app itself. Hopefully in the future the company will implement some of these designs or consider some of these problems for an upcoming update.</p>
+                <p style="text-align: right"> By: Daniel Carter
+                <br> Email: Carte3dt@dukes.jmu.edu</p>
+            </footer>
+            
+            
+        </div>
+    </body>
+</html>
